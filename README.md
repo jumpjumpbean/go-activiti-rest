@@ -50,7 +50,7 @@ func main(){
 		panic(err)
 	}
 	
-	err = c.DeleteUser("jacob")
+	err = c.DeleteUser("jumpjumpbean")
 	if err != nil {
 		panic(err)
 	}
