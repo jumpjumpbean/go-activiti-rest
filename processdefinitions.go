@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// GetUser retrieves user by ID
+// GetProcessDefinition retrieves process definition by ID
 // Endpoint: GET repository/process-definitions/{processDefinitionId}
 func (c *ActClient) GetProcessDefinition(pid string) (*ActProcessDefinition, error) {
 	pd := &ActProcessDefinition{}
